@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import ReviewInHome from './ReviewInHome';
 
 const Home = () => {
     return (
@@ -20,7 +21,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+            <ReviewInHome></ReviewInHome>
         </>
     );
 };
