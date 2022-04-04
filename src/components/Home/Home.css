@@ -1,4 +1,40 @@
-.page-bg {
+.page-bg-home {
     width: 100%;
     min-height: 100vh;
 }
+
+.text h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.text p{
+    /* margin: 16px; */
+    /* margin-left: 120px;
+    margin-right: 133px; */
+}
+.see-button-home{
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 20px;
+    border: 0;
+    transition: 0.3s;
+}
+
+.homeImg{
+    width: 100%;
+    float: right;
+}
+
+.see-button-home:hover{
+    color: white;
+    background-color: #761b3d;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}
+

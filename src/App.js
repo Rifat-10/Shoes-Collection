@@ -1,17 +1,18 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Friends from './components/Friend/Friends';
+import AllReviews from './components/AllReviews/AllReviews';
+import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
-    <div className="App">
-    <h1>Welcome to my site</h1>
-    <Routes>
-      <Route path="/" element={<Home/>}></Route>
-      <Route path="/friends" element={<Friends></Friends>}></Route>
-      <Route path="*" element={<NotFound></NotFound>}></Route>
-    </Routes>
+    <div>
+      <Header></Header>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        {/* <Route path="/allReviews" element={<AllReviews></AllReviews>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route> */}
+      </Routes>
     </div>
   );
 }
