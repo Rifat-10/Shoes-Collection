@@ -12,8 +12,7 @@ const Home = () => {
                             <h1> <span className='text-danger'>S</span>hoes <br />    
                               <span className='text-danger'> A</span>nalysis</h1>
 
-                            <p>We care about your run. That’s why we stock your favourite brands of running trainers catering for every need. Whether you’re running low, medium, or high mileage, after a shoe to control foot roll, or you need a specific heel or toe drop. We have brands that cover it all. 
-.</p>
+                            <p>We care about your run. That’s why we stock your favourite brands of running trainers catering for every need. Whether you’re running low, medium, or high mileage, after a shoe to control foot roll, or you need a specific heel or toe drop. We have brands that cover it all.</p>
                             <button className="see-button-home">Demo Now </button>
                         </div>
                         <div className="">
