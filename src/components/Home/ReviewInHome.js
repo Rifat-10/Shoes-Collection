@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactStars from 'react-rating-stars-component';
+import { Link } from 'react-router-dom';
 import useReview from '../../Hooks/useReview';
-import './AllReviews.css';
+import './ReviewInHome.css'
 
-const AllReviews = () => {
+const ReviewInHome = () => {
     const [reviews] = useReview();
     return (
         <div className='page-bg-reviewInHome'>
-            <div className='container'>
+            <div className='container d-flex flex-column justify-content-center align-items-center'>
                 <h1 className='text-center mb-5'>Reviews</h1>
-                <div className="row g-4">
+                <div className="row g-5">
                     {
-                        reviews.map((review, index) => (
+                        reviews.slice(0, 3).map((review, index) => (
                             <div key={index} className="col-12 col-lg-4">
                                 <div className='d-flex flex-column justify-content-center align-items-center review h-100'>
                                     <div className="product-banner">
@@ -20,7 +21,6 @@ const AllReviews = () => {
                                     <div className="product-info">
                                         <h3>{review?.name}</h3>
                                         <p>{review?.comment}</p>
-
                                     </div>
                                     <ReactStars
                                         count={5}
@@ -39,9 +39,10 @@ const AllReviews = () => {
                     }
 
                 </div>
+                <Link to='/allReviews' className='see-button mt-5'>see all reviews</Link>
             </div>
         </div>
     );
 };
 
-export default AllReviews;
+export default ReviewInHome;
