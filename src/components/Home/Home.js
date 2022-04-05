@@ -14,7 +14,7 @@ const Home = () => {
 
                             <p>We care about your run. That’s why we stock your favourite brands of running trainers catering for every need. Whether you’re running low, medium, or high mileage, after a shoe to control foot roll, or you need a specific heel or toe drop. We have brands that cover it all. 
 .</p>
-                            <button className="see-button-home">Preebook now <i className="fas fa-arrow-right"></i></button>
+                            <button className="see-button-home">Demo Now </button>
                         </div>
                         <div className="">
                             <img className='homeImg' src="https://www.eatthis.com/wp-content/uploads/sites/4/2021/06/slow-man-shoes.jpg" alt="" />
