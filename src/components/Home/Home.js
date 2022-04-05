@@ -9,10 +9,11 @@ const Home = () => {
                 <div className='container'>
                     <div className='d-flex justify-content-between align-items-center'>
                         <div className="w-100 text">
-                            <h1> Start your Journey as <br />
-                                Influencer</h1>
+                            <h1> <span className='text-danger'>S</span>hoes <br />    
+                              <span className='text-danger'> A</span>nalysis</h1>
 
-                            <p>To be a successful influencer, you need to find the one you need. Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatibus saepe quasi ut soluta voluptatem atque, ex veniam accusantium praesentium aperiam voluptatum velit modi reprehenderit aspernatur eum earum perspiciatis incidunt.</p>
+                            <p>We care about your run. That’s why we stock your favourite brands of running trainers catering for every need. Whether you’re running low, medium, or high mileage, after a shoe to control foot roll, or you need a specific heel or toe drop. We have brands that cover it all. 
+.</p>
                             <button className="see-button-home">Preebook now <i className="fas fa-arrow-right"></i></button>
                         </div>
                         <div className="">
