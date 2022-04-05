@@ -10,8 +10,13 @@ const Dashboard = () => {
             .then(data => setChartdata(data));
     }, [])
 
-    return (<div>
+    return (<div className=' d-flex flex-column justify-content-center align-items-center review h-100'>
         <br /> <br />
+        <div className="row g-5">
+
+        <div >
+
+        
         <LineChart width={530} height={250} data={chartdata}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" />
@@ -44,8 +49,8 @@ const Dashboard = () => {
             <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
         </AreaChart>
 
-
-
+        </div>
+        </div>
         <BarChart
             width={500} height={300} data={chartdata}
             margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
